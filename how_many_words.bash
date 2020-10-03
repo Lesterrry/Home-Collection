@@ -1,5 +1,5 @@
 text=$(pbpaste)
-if [ -z $text ]; then
+if [ -z "$text" ]; then
 	echo '\033[32m\033[1mFound\033[0m nothing in the buffer'
 else
 	words=( $text )
