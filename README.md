@@ -5,3 +5,4 @@ Here I'm going to collect all the scripts I use
  - hidden - tool to quickly hide/show hidden files in MacOS
  - bufferguard - quick shotgun approach to avoid Apple Books putting copyright footer into every copied piece of text
  - filedozer - creates a broken copy of the file provided
+ - dealpha – replace alpha channel of an image with an RGB color
