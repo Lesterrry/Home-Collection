@@ -1,0 +1,16 @@
+#!/bin/zsh
+#
+# Handcrafted by Aydar N.
+# 2022
+#
+# me@aydar.media
+#
+
+echo -n "Wipe ./Downloads? Y/N "
+read prompt
+if [[ "$prompt" == "Y" ]]; then
+	date=$(date +"%d-%m-%Y-%H-%M-%S")
+	user=$(whoami)
+	mkdir /Users/$user/.Trash/$date
+	mv -v /Users/$user/Downloads/* /Users/$user/.Trash/$date/
+fi
